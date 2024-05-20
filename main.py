@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 #
 # Set the environment variable within the script (for development purposes)
-os.environ['OPENAI_API_KEY'] = 'sk-proj-207qJIZ4VPrEfEzkpTxeT3BlbkFJZ1EQwRMUcF0EEfq11wIt'
+os.environ['OPENAI_API_KEY'] = 'secret key here'
 
 openai.api_key = os.environ['OPENAI_API_KEY']
 
